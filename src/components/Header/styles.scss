@@ -1,0 +1,18 @@
+@import "../../styles/colors.scss";
+
+.header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: $os-header-color;
+    
+}
+
+.header-title{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top:20px;
+}

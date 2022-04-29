@@ -1,0 +1,7 @@
+{
+    "APIUrl": "https://opensponsorship-dev-test-backe.herokuapp.com",
+    "addAthlete": "/addAthlete",
+    "listAthletes": "/list",
+    "deleteAthlete": "/delete",
+    "getAthlete": "/getAthlete/"
+}

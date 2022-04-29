@@ -1,0 +1,77 @@
+@import "../../styles/colors.scss";
+
+.athlete-profile-body{
+    position: relative;
+    top: 5%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    align-items: center;
+    height: 85%;
+    width:50%;
+    padding: 15px;
+}
+
+.button-area{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto
+}
+
+.athlete-profile-input-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.athlete-profile-input-container{
+    width: 90%;
+    margin:5px;
+}
+
+.athlete-profile-bio-container{
+    width: 90%;
+    margin:15px;
+    text-align: left;
+}
+
+.athlete-profile-main{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+    margin:15px;
+}
+
+.athlete-profile-col-1{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    align-items:center
+}
+
+.athlete-profile-col-2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items:center;
+}
+
+.athlete-profile-image{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    border-radius: 100px;
+}
+
+.athlete-confirm-input{
+    width: 100%;
+}
+
+.athlete-profile-name{
+    font-weight: bold;
+    font-size: 24px;
+}
